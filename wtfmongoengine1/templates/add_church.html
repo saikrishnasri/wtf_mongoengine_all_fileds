@@ -1,0 +1,462 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="static/style.css">
+    <title>Welcome to Super Admin</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 logo_sec">
+               <a href="#"><img src="images/d_logo.jpg" alt="logo"></a>
+            </div>
+            <div class="col-sm-10 right_sec pl-0 pr-0">
+               <div class="logo_right h-100 d-flex">
+                   <div class="h_left">
+                    <div class="input-group md-form form-sm form-2 pl-0">
+                        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                          <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                              aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="h_right ml-auto ">
+                    <div class="user_name d-flex">
+                        <p>User Name</p>
+                        <span class="user_img">
+                            <a class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Log Out</a>
+                              </div>
+                        </span>
+                       </div>
+                   </div>
+
+               </div>
+            </div>
+
+        </div>
+   </div>
+
+
+   <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 l_sec pr-0 pl-0">
+                <div class="collapse show d-md-flex " id="sidebar">
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item db_active"><a class="nav-link" href="#">Dashboard</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu1" data-toggle="collapse" data-target="#submenu1"> Church</a>
+                            <div class="collapse" id="submenu1" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Church List</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Add Church</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu2" data-toggle="collapse" data-target="#submenu2">Charity</a>
+                            <div class="collapse" id="submenu2" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Charity List</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Add Charity</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu3" data-toggle="collapse" data-target="#submenu3">Users</a>
+                            <div class="collapse" id="submenu3" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Users List</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Add User</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu4" data-toggle="collapse" data-target="#submenu4">Donations</a>
+                            <div class="collapse" id="submenu4" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Donations List</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu5" data-toggle="collapse" data-target="#submenu5">Special Causes</a>
+                            <div class="collapse" id="submenu5" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Special Causes List</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu6" data-toggle="collapse" data-target="#submenu6">Projects</a>
+                            <div class="collapse" id="submenu6" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu7" data-toggle="collapse" data-target="#submenu7">Recurring Donations</a>
+                            <div class="collapse" id="submenu7" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Recurring Donations List</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu8" data-toggle="collapse" data-target="#submenu8">App Home Page</a>
+                            <div class="collapse" id="submenu8" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Our Recommendations</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Trending Now</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu9" data-toggle="collapse" data-target="#submenu9">Reports</a>
+                            <div class="collapse" id="submenu9" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu collapsed text-truncate" href="#submenu10" data-toggle="collapse" data-target="#submenu10">Approvals</a>
+                            <div class="collapse" id="submenu10" aria-expanded="false">
+                                <ul class="flex-column  sub-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Approvals</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-10">
+               <div class="r_sec">
+                   <h2>Add Church</h2>
+                   <div class="r_box">
+                      <form action="" method="post" autocomplete="off" novalidate>
+                      {{ form.csrf_token }}
+                      {{ form.hidden_tag() }}
+                       <div class="row">
+                         <fieldset class="form-group">
+                           <div class="col-sm-6">
+                            <div class="form-group row">
+                              {{ form.name.label(class="form-control-label")}}
+
+                              {% if form.name.errors %}
+                                {{ form.name(class="form-control is-invalid")}}
+                                <div class="invalid-feedback">
+                                  {% for error in form.name.errors %}
+                                    <span>{{ error }}</span>
+                                  {% endfor%}
+                                </div>
+                              {% else %}
+                              {{ form.name(class="form-control",placeholder="Church Name")}}
+                              {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.propic.label(class="form-control-label")}}
+                               {% if form.propic.errors %}
+                                 {{ form.propic(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.propic.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.propic(class="form-control",placeholder="Choose file")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.coverpic.label(class="form-control-label")}}
+                               {% if form.coverpic.errors %}
+                                 {{ form.coverpic(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.coverpic.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.coverpic(class="form-control",placeholder="Choose file")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.phonenumber.label(class="form-control-label")}}
+                               {% if form.phonenumber.errors %}
+                                 {{ form.phonenumber(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.phonenumber.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.phonenumber(class="form-control",placeholder="Phone Number")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.website.label(class="form-control-label")}}
+                               {% if form.website.errors %}
+                                 {{ form.website(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.website.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.website(class="form-control",placeholder="www.piesagiving.com")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.country.label(class="form-control-label")}}
+                               {% if form.country.errors %}
+                                 {{ form.country(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.country.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.country(class="form-control",placeholder="USA")}}
+                               {% endif %}
+                             </div>
+
+
+
+                           </div>
+                           <div class="col-sm-6">
+                             <div class="form-group row">
+                               {{ form.streetaddress.label(class="form-control-label")}}
+                               {% if form.streetaddress.errors %}
+                                 {{ form.streetaddress(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.streetaddress.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.streetaddress(class="form-control",placeholder="Address")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.state.label(class="form-control-label")}}
+                               {% if form.state.errors %}
+                                 {{ form.state(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.state.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.state(class="form-control",placeholder="Select State")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.city.label(class="form-control-label")}}
+                               {% if form.city.errors %}
+                                 {{ form.city(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.city.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.city(class="form-control",placeholder="Select City")}}
+                               {% endif %}
+                             </div>
+
+                             <div class="form-group row">
+                               {{ form.zipcode.label(class="form-control-label")}}
+                               {% if form.zipcode.errors %}
+                                 {{ form.zipcode(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.zipcode.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.zipcode(class="form-control",placeholder="Zip Code")}}
+                               {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.email.label(class="form-control-label")}}
+                               {% if form.email.errors %}
+                                 {{ form.email(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.email.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.email(class="form-control",placeholder="Email")}}
+                               {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.password.label(class="form-control-label")}}
+                               {% if form.password.errors %}
+                                 {{ form.password(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.password.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.password(class="form-control",placeholder="Password")}}
+                               {% endif %}
+                             </div>
+
+
+                           </div>
+                         </fieldset>
+                       </div>
+
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-6">
+                           <h3>Pastor Info</h3>
+                           <div class="r_box">
+                            <div class="form-group row">
+                              {{ form.name.label(class="form-control-label")}}
+                              {% if form.name.errors %}
+                                {{ form.name(class="form-control is-invalid")}}
+                                <div class="invalid-feedback">
+                                  {% for error in form.name.errors %}
+                                    <span>{{ error }}</span>
+                                  {% endfor%}
+                                </div>
+                              {% else %}
+                                {{ form.name(class="form-control",placeholder="Name")}}
+                              {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.email.label(class="form-control-label")}}
+                               {% if form.email.errors %}
+                                 {{ form.email(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.email.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.email(class="form-control",placeholder="Email")}}
+                               {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.phonenumber.label(class="form-control-label")}}
+                               {% if form.phonenumber.errors %}
+                                 {{ form.phonenumber(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.phonenumber.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.phonenumber(class="form-control",placeholder="Phone Number")}}
+                               {% endif %}
+                             </div>
+
+
+
+                           </div>
+                       </div>
+                       <div class="col-sm-6">
+                           <h3>Treasurer Info</h3>
+                           <div class="r_box">
+                            <div class="form-group row">
+                              {{ form.name.label(class="form-control-label")}}
+                              {% if form.name.errors %}
+                                {{ form.name(class="form-control is-invalid")}}
+                                <div class="invalid-feedback">
+                                  {% for error in form.name.errors %}
+                                    <span>{{ error }}</span>
+                                  {% endfor%}
+                                </div>
+                              {% else %}
+                                {{ form.name(class="form-control",placeholder="Name")}}
+                              {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.email.label(class="form-control-label")}}
+                               {% if form.email.errors %}
+                                 {{ form.email(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.email.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.email(class="form-control",placeholder="Email")}}
+                               {% endif %}
+                             </div>
+                             <div class="form-group row">
+                               {{ form.phonenumber.label(class="form-control-label")}}
+                               {% if form.phonenumber.errors %}
+                                 {{ form.phonenumber(class="form-control is-invalid")}}
+                                 <div class="invalid-feedback">
+                                   {% for error in form.phonenumber.errors %}
+                                     <span>{{ error }}</span>
+                                   {% endfor%}
+                                 </div>
+                               {% else %}
+                                 {{ form.phonenumber(class="form-control",placeholder="Phone Number")}}
+                               {% endif %}
+                             </div>
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="row">
+                    <div col-sm-12>
+                          {{form.submit(class="btn btn-primary  btn-lg btn-block")}}
+                    </div>
+                </div>
+               </div>
+            </div>
+          </form>
+
+        </div>
+
+   </div>
+{% if file_url1 %}
+<br>
+<img src="{{ file_url1 }}">
+{% endif %}
+
+{% if file_url2 %}
+<br>
+<img src="{{ file_url2 }}">
+{% endif %}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body></html>
